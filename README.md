@@ -8,7 +8,7 @@ Usage
 
 `/ck <command> [key]` - An alias of `/commandkey`, see above.
 
-Replace all spaces in your command with `_`, so `say Testing` would become `say_Testing`.
+Replace all spaces in your command with `_`, so `say Testing` would become `say_Testing`. Commands can use the variable **[user]**, which will be replaced with the user who activates the key.
 
 `/activate <key>` - Activate a key (runs the command as console) (requires **commandkey.activate**)
 

@@ -69,6 +69,7 @@ public class CommandKeyExecutor implements CommandExecutor {
 			if (this.plugin.getConfig().get("CommandKey.keys."+args[0]) != null)
 			{
 				String cmd = this.plugin.getConfig().getString("CommandKey.keys."+args[0]);
+				cmd = cmd.replaceAll("[user]", sender.getName());
 				
 				this.plugin.getConfig().set("CommandKey.keys."+args[0], null);
 				this.plugin.getServer().dispatchCommand(this.plugin.getServer().getConsoleSender(), cmd);
