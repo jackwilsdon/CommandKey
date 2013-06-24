@@ -10,6 +10,6 @@ Usage
 
 Replace all spaces in your command with `_`, so `say Testing` would become `say_Testing`.
 
-`/activate <key>` - Activate a key (**runs the command as OP**) (requires **commandkey.activate**)
+`/activate <key>` - Activate a key (runs the command as console) (requires **commandkey.activate**)
 
 Created for igloo22225 on [BukkitDev](http://forums.bukkit.org/threads/command-serial-run-a-server-command-with-a-single-use-key.123015/)
