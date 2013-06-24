@@ -1,0 +1,14 @@
+name: "CommandKey"
+main: "com.jackwilsdon.commandkey.CommandKey"
+version: "1.0"
+description: "Single use command keys!"
+author: "Jack Wilsdon (jackwilsdon)"
+
+commands:
+    commandkey:
+        description: Create a command key
+        usage: /<command> <command> [key]
+        aliases: ["ck"]
+    activate:
+        description: Use a command key
+        usage: /<command> <key>
